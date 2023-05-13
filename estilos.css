@@ -193,4 +193,63 @@ html{
 .sobremi .fila .col .contenedor-intereces .interes:hover{
     background-color: #1cb698;
 }
+.SECCION-PROYECTOS{
+    background-color:#1e2326;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: 'Righteous', cursive;
+    display: flex;
+    justify-content: space-around;
 
+}
+.SECCION-PROYECTOS .caja-contenedora{
+    display: flex;
+    align-items: center;
+
+    
+}
+.SECCION-PROYECTOS .caja-contenedora .contenedor1{
+    padding: 50%;
+}
+.SECCION-PROYECTOS .caja-contenedora .contenedor .caja{
+    width: 350px;
+    height: 350px;
+    background-color: #252a2e;
+    border-radius: 15px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: .3s;
+    text-align: center;
+    font-size: 19px;
+}
+.SECCION-PROYECTOS .caja-contenedora .contenedor .caja:hover{
+    background-color: #1e2326;
+}
+.SECCION-PROYECTOS .caja-contenedora .contenedor .caja h2{
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #1cb698;
+
+}
+.SECCION-PROYECTOS .caja-contenedora .contenedor .caja h2:hover{
+    color: #fff;
+}
+
+
+.SECCION-PROYECTOS .caja-contenedora .contenedor .caja ul li{
+    list-style: none;
+    margin-bottom: 20px;
+
+}
+.SECCION-PROYECTOS .caja-contenedora .contenedor .caja ul li a{
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+    color: #fff;
+}
+.SECCION-PROYECTOS .caja-contenedora .contenedor .caja ul li a:hover{
+    color: #1cb698;
+}
