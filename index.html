@@ -14,20 +14,20 @@
 
 <body>
     <!-- MENU ENCABEZADO-->
-    <div class="contenido-header">
+    <div class="contenido-header" id="iniciop">
         <header>
             <div class="logo">
                 <a href="#">Jefernne</a>
             </div>
-            <nav>
+            <nav id="nav">
                 <ul>
-                    <li><a href="# inicio">INICIO</a></li>
-                    <li><a href="# sobre mi">SOBRE MI</a></li>
-                    <li><a href="# Proye">PROYECTOS</a></li>
+                    <li><a href="#" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#" onclick="seleccionar()">PROYECTOS</a></li>
                 </ul>
                 
             </nav>
-            <div class="nav-responsiva">
+            <div class="nav-responsive" onclick="mostrar()" >
                 <i class="fa-solid fa-bars"></i>
             </div>
         </header>
@@ -105,9 +105,10 @@
                 </div>
             </div>
         </div>
+        </div>
     </Section>
     <!--SECCION PROYECTOS-->
-    <section class="SECCION-PROYECTOS">
+    <section class="SECCION-PROYECTOS" id="proyectos">
         <div class="caja-contenedora">
             <div id="contenedor1" class="contenedor">
                 <div id="caja1" class="caja">
@@ -148,8 +149,91 @@
             </div>  
         </div>
     </section>
-    <!--SECCION CURRICULOM-->
-    <section></section>
+    <!-- SECCION SKILLS-->
+    <section class="skills" id="skills">
+            <div class="contenido-seccion">
+                <h2>Skills</h2>
+                <div class="fila">
+                    <!-- Technicial skill-->
+                    <div class="col">
+                        <h3>Technical skills</h3>
+                        <div class="skill">
+                            <span>Javascript</span>
+                            <div class="barra-skills">
+                                <div class="progreso Javascript">
+                                    <span>25%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>HTML & CSS</span>
+                            <div class="barra-skills">
+                                <div class="progreso HTML_CSS">
+                                    <span>40%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>JAVA</span>
+                            <div class="barra-skills">
+                                <div class="progreso JAVA">
+                                    <span>40%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>SPRING BOOT</span>
+                            <div class="barra-skills">
+                                <div class="progreso SPRING_BOOT">
+                                    <span>20%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- profeccional skill -->
+                    <div class="col">
+                        <h3>profeccional skill</h3>
+                        <div class="skill">
+                            <span>Comunicación</span>
+                            <div class="barra-skills ">
+                                <div class="progreso Comunicación">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Creatividad</span>
+                            <div class="barra-skills">
+                                <div class="progreso Creatividad">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Dedicación</span>
+                            <div class="barra-skills">
+                                <div class="progreso Dedicación">
+                                    <span>60%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+        <a href="#iniciop" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://github.com/jefernne/Dearrollo-web-portafolio"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -59,7 +59,7 @@ html{
     color: #1CB698;
 
 }
-.nav-responsiva{
+.nav-responsive{
     background-color: #1cb698;
     color: #fff;
     padding: 5px 10px;
@@ -75,6 +75,7 @@ html{
     height: 100vh;
     color: #fff;
     display: flex;
+    margin-top: 74px;
     align-items: center;
 }
 .inicio .contenido-banner{
@@ -299,4 +300,216 @@ html{
 .consultas2 .cajas1:hover{
  background-color: #1e2326;
 }
+/*SECCION S K I L L S*/
+.skills{
+    background-color: #252a2e;
+    color:  #fff;
+    padding: 10px 10px;
+    margin: 0;
+}
+.skills .contenido-seccion{
+    max-width: 1100px; 
+    margin: auto;
+}
+.skills h2{
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    padding: 20px 0;
+}
+.skills .fila{
+    display: flex;
 
+}
+.skills .fila .col{
+    width: 50%;
+    padding: 0 20px;
+    
+}
+.skills .contenido-seccion .fila .col h3{
+    font-size: 28px;
+    font-family: 'Righteous', cursive;
+    margin-bottom: 25px;
+}
+.skills .skill>span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+.skills .skill .barra-skills{
+    height: 8px;
+    width: 80%;
+    background-color: #131517;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+.skills .skill .progreso{
+    background-color: #1CB698;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 8px;
+}
+.skills .skill .barra-skills span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #1cb698;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+}
+.skills .skill .Javascript{
+    width: 0%;
+    animation: 5s Javascript forwards;
+
+}
+@keyframes Javascript{
+    0%{width: 0%;}
+    100%{width: 25%;}
+}
+.skills .skill .HTML_CSS{
+    width: 0%;
+    animation: 5s HTML_CSS   forwards;
+}
+@keyframes HTML_CSS{
+    0%{width: 0%;}
+    100%{width: 40%;}
+}
+.skills .skill .JAVA{
+    width: 0%;
+    animation: 5s JAVA forwards;
+}
+@keyframes JAVA{
+    0%{width: 0%;}
+    100%{width: 40%;}
+}
+.skills .skill .SPRING_BOOT{
+    width: 0%;
+    animation: 5s SPRING_BOOT forwards  ;
+}
+@keyframes SPRING_BOOT{
+    0%{width: 0%;}
+    100%{width: 20%;}
+}
+.skills .barra-skills .Comunicación{
+    width: 0%;
+    animation: 5s Comunicación forwards;
+}
+@keyframes Comunicación{
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+.skills .barra-skills .Creatividad{
+    width: 0%;
+    animation: 5s Creatividad forwards;
+}
+@keyframes Creatividad{
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+.skills .barra-skills .Dedicación{
+    width: 0%;
+    animation: 5s Dedicación forwards;
+}
+@keyframes Dedicación{
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+footer{
+    background-color: #252a2e;
+    color: #fff;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+
+}
+footer .redes{
+    margin-bottom: 20px;
+
+}
+footer .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+footer .arriba{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #1CB698;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
+}
+/*secion responsive*/
+@media screen and (max-width: 980px) {
+    nav{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+    }
+    nav.responsive{
+        display: block;
+        position: absolute;
+        right: 0;
+        top:75px;
+        background-color: #252a2e;
+        width: 180px;
+    }
+    nav.responsive ul{
+        display: block !important;
+
+    }
+    nav.responsive ul li{
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+
+    }
+
+
+    
+}
+@media screen and (max-width: 700px){
+    .sobremi .fila{
+        display: block;
+
+    }
+    .sobremi .fila .col{
+        width: fit-content;
+    }
+    .SECCION-PROYECTOS .caja-contenedora{
+        display: flex;
+        flex-direction: column;
+    }
+    .skills .fila{
+        display: block;
+    }
+    .skills .fila .col{
+        width: 100%;
+    }
+    .skills .fila .col  .barra-skills{
+        width: 100%;
+    }
+}
