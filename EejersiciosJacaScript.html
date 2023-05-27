@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./OtrosStyles.css">
+    <title>Document</title>
+</head>
+<body>  
+    <section class="menu">
+        <div class="menu-caja">
+            <div class="menu-caja1">
+                <h2>Jefernne</h2>
+            </div>
+            <div class="menu-caja2">
+                <nav class="nav">
+                    <a href="./index.html">Inicio</a>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+        <!--Ejercisio-1-->
+    <section class="ejersicio-1">
+        <div class="ejerscio-1-enuncaido">
+            <div class="titulo">
+                <h2>E J E R C I C I O - 1</h2>
+            </div>
+            <div class="ejersicio1-caja">
+                <label for="nombre">
+                    Ingrese el nombre: 
+                    <input type="text" id="nombre" class="nombre" placeholder="NOMBRE" style="font-size: 20px;">
+                </label>
+                <label for="edad">
+                    Ingrese la edad
+                    <input type="number" id="edad" class="nombre" placeholder="EDAD" style="font-size: 20px;">
+                </label>
+            </div>
+            <div class="enunciado">
+                <div class="enunciado1">
+                    <p>Hola</p>
+                    <div class="raya" id="raya1"></div>
+                </div>
+                <div class="enunciado1">
+                    <p>Tienes</p>
+                    <div class="raya"id="raya2"></div>
+                </div>
+                <div class="enunciado1" id="enunciado1">
+                    <p>años y el año que viene tendrás</p>
+                    <div  class="raya" id="raya3"> </div>
+                </div>
+            </div>
+            <div class="enviar">
+                <button onclick="ejecutar()">Enviar</button>
+            </div>
+        </div>
+    </section>
+    <!--Ejersicio-2-->
+    <section class="ejerscio-2">
+        <div class="ejerscio-2-enuncaido">
+            <div class="titulo">
+                <h2>E J E R C I C I O - 2</h2>
+            </div>
+            <div class="ejerscio-2-enuncaido-caja">
+                <div class="ejerscio-2-tringulo caja">
+                    <h2>Triangulo</h2>
+                    <label for="triangulo">
+                        Altura
+                        <input type="number" id="AlturaT">
+                    </label>
+                    <label for="triangulo">
+                        Base
+                        <input type="number" id="BaseT">
+                    </label>
+                    <label for="btn-modal"></label>
+                    <button onclick="calcularAT()"> <label for="btn-AT">Calcular</label></button>
+                    
+                </div>
+                <div class="ejerscio-2-rectangulo caja" >
+                    <h2>Rectangulo</h2>
+                    <label for="Rectangulo">
+                        Altura
+                        <input type="number" id="AlturaR">
+                    </label>
+                    <label for="Rectangulo">
+                        Base
+                        <input type="number" id="BaseR">
+                    </label>
+                    <button onclick="calcularRC()" ><label for="btn-RC">Calcular</label></button>
+                </div>
+                <div class="ejerscio-2-cirulo caja">
+                    <h2>Circulo</h2>
+                    <label for="Circulo">
+                        radio
+                        <input type="text" id="radio_R">
+                    </label>
+                    <button onclick="calcularRRC()" ><label for="btn-RRC">Calcular</label ></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Ventana oculatar para triangulo-->
+        <input type="checkbox" id="btn-AT">
+        <div class="container-modal">
+            <div class="content-modal">
+                <h2>AREA</h2>
+                <img src="./img/rectangulo.png" alt="">
+            </div>
+            <div id="mostrar">
+
+            </div>
+            <div class="bnt-cerrar">
+                <label for="btn-AT">cerrar</label>
+            </div>
+        </div>
+    <!--Ventana oculatar para triangulo-->
+    <input type="checkbox" id="btn-RC">
+    <div class="container-rectangulo">
+        
+        <div class="container">
+            <div>
+                <h2>Area</h2>
+            </div>  
+            <img src="./img/rectanguloRC.png" alt="">
+        </div>
+        <div class="mostrarRC" id="mostrarRC1">
+
+        </div>
+        <div class="btn-cerrarRC">
+            <label for="btn-RC">cerrar</label>
+        </div>
+    </div>
+        <!--Ventana oculatar para triangulo-->
+    <input type="checkbox" id="btn-RRC">
+    <div class="container-RRC">
+        <div class="container-img">
+            <h2>Area</h2>
+            <img src="./img/circulo.png" alt="">
+        </div>
+        <div class="continer-circulo" id="respuesra_RRC">
+            
+        </div>
+        <div class="btn-cerrarRRC">
+            <label for="btn-RRC">Cerrar</label>
+        </div>
+    </div>
+    <!--EJERCISIO 3-->
+    <section class="ejersicio-3">
+        <div class="contenido-ejersicio-3">
+            <div class="titulo">
+                <h2>E J R C I C I O - 3</h2>
+            </div>
+            <div class="solicitar-ejersicio3">
+                <label for="par_impar">
+                    Ingrese el numero
+                    <input type="number" id="par_impar" min="1">
+                </label>
+            </div>
+            <button onclick="jugar()"><label for="btn-pares">Precionar</label></button>
+        </div>
+    </section>
+    <input type="checkbox" id="btn-pares">
+    <div class="resultado">
+        <div class="resultado-todo">
+            <div class="par cuadrar">
+                <h2>par</h2>
+                <div id="imprimir_par" class="imprimir">
+                
+                </div>
+            </div>
+            <div class="impar cuadrar">
+                <h2>impar</h2>
+                <div id="imprimir_impar" class="imprimir"></div>
+            </div>    
+        </div>
+        <div class="btn-cerrar">
+            <label for="btn-pares">Cerrar</label>
+        </div>
+    </div>
+    <!--EJERCICIO 4 -->
+    <section  class="ejercicio-4">
+        <div  class="container-ejercicio-4">
+            <div class="titulo">
+                <h2>E J E R C I C I O - 4</h2>
+            </div>
+
+            <div class="container-ejercicio4-campos">
+                <label for="numero">
+                    Ingresa el numero
+                    <input type="number" id="numero" placeholder="mayores iguales a 1" min="1">
+                </label>                
+            </div>
+
+            <div class="resultado_ejercicio4" id="resultado">
+
+            </div>
+            <button onclick="verificarPrimo()">Calcular</button>
+        </div>
+        
+    </section>
+<!--EJECICIO 5-->
+    <section  class="ejercicio-4">
+        <div  class="container-ejercicio-4">
+            <div class="titulo">
+                <h2>E J E R C I C I O - 5</h2>
+            </div>
+
+            <div class="container-ejercicio4-campos">
+                <label for="numerofac">
+                    FACTORIAL 
+                    <input type="number" id="numerofac" placeholder="mayores iguales a 1" min="1">
+                </label>                
+            </div>
+
+            <div class="resultado_ejercicio4" id="resultadofactorial">
+
+            </div>
+            <button onclick="verificarfactorial()">Calcular</button>
+        </div>
+        
+    </section>
+    <script src="./ejersicios.js"></script>
+<!--EJERSICIO 7-->
+<section class="ejersicio-7">
+    <div class="contenido-ejersicio-7">
+        <div class="titulo">
+            <h2>E J R C I C I O - 7</h2>
+        </div>
+        <div class="solicitar-ejersicio7">
+            <h2>Vectores aleatorios</h2>
+        </div>
+        <button onclick="llenar();"><label for="btn-pares-vector">Calcular</label></button>
+    </div>
+</section>
+<input type="checkbox" id="btn-pares-vector">
+<div class="resultado7">
+    <div class="resultado-todo7">
+        <div class="par7 cuadrar7">
+            <h2>par</h2>
+            <div id="imprimir_par_vector" class="imprimir_vector"></div>
+        </div>
+        <div class="impar7 cuadrar7">
+            <h2>impar</h2>
+            <div id="imprimir_impar_vector" class="imprimir_vector"></div>
+        </div>    
+    </div>
+    <div class="btn-cerrar">
+        <label for="btn-pares-vector">Cerrar</label>
+    </div>
+</div>
+<!---EJERSICIO -8-->
+<section  class="ejercicio-4">
+    <div  class="container-ejercicio-4">
+        <div class="titulo">
+            <h2>E J E R C I C I O - 8</h2>
+        </div>
+
+        <div class="container-ejercicio4-campos">
+            <label for="numerofac">
+                ingresar DNI
+                <input type="number" id="numerodni" placeholder="mayores iguales a 1" min="1">
+            </label>                
+        </div>
+
+        <div class="resultado_ejercicio4" id="resultadodni">
+
+        </div>
+        <button onclick="dniletra()">Calcular</button>
+    </div>
+    
+</section>
+<!--ejersicio 9-->
+<section  class="ejercicio-9">
+    <div  class="container-ejercicio-9">
+        <div class="titulo">
+            <h2>E J E R C I C I O - 9</h2>
+        </div>
+
+        <div class="container-ejercicio9-campos">
+            <label for="numero">
+                Ingresa palabra
+                <input type="text" id="numeropalabras" placeholder="Palabras" min="1">
+            </label>                
+        </div>
+        <div class="contenedor-ejersicio9">
+            <h3>Palabra</h3>
+            <div class="resultado_ejercicio9" id="lapalbras">
+
+            </div>
+        </div>
+        <div class="contenedor-ejersicio9">
+            <h3>Longitud</h3>
+            <div class="resultado_ejercicio9" id="longitud">
+
+            </div>
+        </div>
+        <div class="contenedor-ejersicio9">
+            <h3>Vocales</h3>
+            <div class="resultado_ejercicio9" id="lavocales">
+
+            </div>
+        </div>
+        <button onclick="FuncionPalbra();">Calcular-vocales</button>
+    </div>
+    
+</section>
+<!--Ejersicio 10-->
+<section  class="ejercicio-4">
+    <div  class="container-ejercicio-4">
+        <div class="titulo">
+            <h2>E J E R C I C I O - 10</h2>
+        </div>
+
+        <div class="container-ejercicio4-campos">
+            <label for="Buscar">
+                Ingrese el color 
+                <input type="text" id="Buscar" placeholder="Encontrar color" min="1">
+            </label>                
+        </div>
+
+        <div class="resultado_ejercicio4" id="ColorBuscar">
+
+        </div>
+        <button onclick="Encontrar()">Calcular</button>
+    </div>
+    
+</section>
+<script src="./ejersicios.js"></script>
+</body>
+</html>

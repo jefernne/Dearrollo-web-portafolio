@@ -1,0 +1,936 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Righteous&family=Work+Sans:ital,wght@0,100;0,400;0,600;1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Work sans;
+    margin: 0;
+    padding: 0;
+}
+h3{
+    font-family: 'Righteous', cursive;
+    color: aquamarine;
+    margin-top: 5px;
+}
+
+h2 {
+    font-family: 'Righteous', cursive;
+    color: aquamarine;
+    margin-top: 10px;
+}
+
+::placeholder {
+    text-align: center;
+    font-size: 20px;
+}
+
+.menu-caja {
+    background: #1e2326;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-caja .menu-caja1 h2 {
+    color: aquamarine;
+
+}
+
+.menu-caja .menu-caja2 nav {
+    height: 100%;
+}
+
+.menu-caja .menu-caja2 nav a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+}
+
+.ejersicio-1 {
+    background-color: #1e2326;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.ejersicio-1 .ejerscio-1-enuncaido {
+    background-color: #373c3f3a;
+    width: 1300px;
+    border-radius: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ejersicio-1 .ejerscio-1-enuncaido .enviar {
+    margin-top: 30px;
+
+}
+
+.ejersicio-1 .ejerscio-1-enuncaido .enviar button {
+    padding: 8px 25px;
+    color: aquamarine;
+    font-family: 'Righteous', cursive;
+    border: 1px solid #fff;
+    background-color: #1e2326;
+    border-radius: 10px;
+}
+
+.ejersicio-1 .ejerscio-1-enuncaido .enviar button:hover {
+    background-color: #d4dce06e;
+    border: 2px solid aquamarine;
+
+}
+
+.ejersicio-1 .ejerscio-1-enuncaido label {
+    color: aquamarine;
+    margin-top: 15px;
+    font-family: 'Righteous', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.ejersicio-1 .ejerscio-1-enuncaido label input {
+    padding: 10px 150px;
+    border-radius: 50px;
+    border: 2px solid #1e2326;
+}
+
+.ejersicio-1 .ejerscio-1-enuncaido .enunciado {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ejersicio-1 .ejerscio-1-enuncaido .enunciado .enunciado1 {
+
+    color: aquamarine;
+    display: flex;
+}
+
+.ejersicio-1 .ejerscio-1-enuncaido .enunciado .enunciado1 .raya {
+    width: 190px;
+    border-bottom: 2px solid #fff;
+    margin: 0px 10px;
+    text-align: center;
+}
+
+@media screen and (max-width:700px) {
+    .ejersicio-1 {
+        height: 450px;
+
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .menu-caja {
+        width: 100%;
+    }
+
+    .ejersicio-1 .ejerscio-1-enuncaido {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 55px;
+    }
+
+    .ejersicio-1 .ejerscio-1-enuncaido label input {
+        padding: 5px 60px;
+        border-radius: 50px;
+        border: 2px solid #1e2326;
+    }
+
+    .ejersicio-1 .ejerscio-1-enuncaido .enunciado {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .ejersicio-1 .ejerscio-1-enuncaido .enunciado .enunciado1 {
+        margin-bottom: 15px;
+
+    }
+
+    .ejersicio-1 .ejerscio-1-enuncaido .enunciado #enunciado1 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .ejersicio-1 .ejerscio-1-enuncaido .enunciado #enunciado1 .raya {
+        margin-top: 20px;
+        width: 100%;
+
+    }
+
+    .ejersicio-1 .ejerscio-1-enuncaido .enunciado .enunciado1 .raya {
+        width: 100%;
+        margin-right: 5px;
+        border: 1px solid #fff;
+
+    }
+
+    .ejersicio-1 .ejerscio-1-enuncaido .enviar button:hover {
+        background-color: #d4dce06e;
+        border: 2px solid aquamarine;
+
+    }
+
+}
+
+.ejerscio-2 {
+    background-color: #1e2326;
+    padding: 10px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.ejerscio-2 .ejerscio-2-enuncaido {
+    background-color: #373c3f3a;
+    width: 1300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 55px;
+}
+
+.ejerscio-2 .ejerscio-2-enuncaido .ejerscio-2-enuncaido-caja {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+}
+
+.ejerscio-2 .ejerscio-2-enuncaido .ejerscio-2-enuncaido-caja .caja {
+
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border-radius: 40px;
+    border: 2px solid white;
+    align-items: center;
+}
+
+.ejerscio-2 .ejerscio-2-enuncaido .ejerscio-2-enuncaido-caja .caja button {
+    margin: 30px;
+    padding: 10px 20px;
+    color: aquamarine;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    background-color: #373c3f3a;
+    cursor: pointer;
+}
+
+.ejerscio-2 .ejerscio-2-enuncaido .ejerscio-2-enuncaido-caja .caja label {
+    margin-top: 20px;
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    color: aquamarine;
+}
+
+.ejerscio-2 .ejerscio-2-enuncaido .ejerscio-2-enuncaido-caja .caja .container-modal {
+    width: 200px;
+    height: 200px;
+    background-color: #1e2326;
+}
+
+.ejerscio-2 .ejerscio-2-enuncaido .ejerscio-2-enuncaido-caja .caja label input {
+    padding: 10px 40px;
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+@media screen and (max-width:700px) {
+    .ejerscio-2 {
+        height: 1400px;
+    }
+
+    .ejerscio-2 .ejerscio-2-enuncaido {
+        height: 90%;
+    }
+
+    .ejerscio-2 .ejerscio-2-enuncaido .ejerscio-2-enuncaido-caja .caja {
+        width: 90%;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        height: 30%;
+    }
+
+    .ejerscio-2 .ejerscio-2-enuncaido .ejerscio-2-enuncaido-caja {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ejerscio-2 .ejerscio-2-enuncaido .ejerscio-2-enuncaido-caja .caja label input {
+        padding: 10px 25px;
+    }
+
+}
+
+/* Esto es solo para la ventana de los ejersicos*/
+#btn-AT {
+    display: none;
+}
+
+.container-modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(144, 140, 150, 0.8);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.bnt-cerrar {
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.bnt-cerrar label {
+    padding: 17px;
+    background-color: #1e2326;
+    color: #fff;
+    border-radius: 15px;
+    border: 2px solid aquamarine;
+    cursor: pointer;
+    font-family: 'Righteous', cursive;
+
+}
+
+.bnt-cerrar label:hover {
+    background-color: #848e9452;
+
+}
+
+#btn-AT:checked~.container-modal {
+    display: flex;
+}
+
+.container-modal .content-modal {
+    width: 250px;
+    height: 300px;
+    background-color: #1e2326;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid aquamarine;
+    flex-direction: column;
+}
+
+.container-modal .content-modal img {
+    width: 80%;
+    height: 70%;
+    border-radius: 25px;
+    border: 2px solid aquamarine;
+}
+
+.container-modal .content-modal h2 {
+    padding: 15px;
+}
+
+/*-----------------------------------------------*/
+/*Esto es solo para la ventana de los ejersicos Rectagulo*/
+#btn-RC {
+    display: none;
+}
+
+.container-rectangulo {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(144, 140, 150, 0.8);
+    z-index: 100;
+}
+
+.container-rectangulo .btn-cerrarRC {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-rectangulo .btn-cerrarRC label {
+    padding: 17px;
+    background-color: #1e2326;
+    color: #fff;
+    border-radius: 15px;
+    border: 2px solid aquamarine;
+    cursor: pointer;
+    font-family: 'Righteous', cursive;
+}
+
+.mostrarRC {
+    font-size: 20px;
+    width: 250px;
+    height: 78px;
+    color: aquamarine;
+    border: 2px solid aquamarine;
+    background-color: #1e2326;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-rectangulo .container {
+    width: 250px;
+    height: 300px;
+    background-color: #1e2326;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid aquamarine;
+    flex-direction: column;
+}
+
+.container-rectangulo .container img {
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+    border: 2px solid aquamarine;
+}
+
+.container-rectangulo .container h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+#btn-RC:checked~.container-rectangulo {
+    display: flex;
+}
+
+/*--------------------------------------------------------*/
+/*Esto es solo para la ventana de los ejersicos circulo*/
+#btn-RRC {
+    display: none;
+}
+
+.container-RRC {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(144, 140, 150, 0.8);
+    z-index: 100;
+}
+
+.container-RRC .continer-circulo {
+    font-size: 20px;
+    width: 250px;
+    height: 78px;
+    color: aquamarine;
+    border: 2px solid aquamarine;
+    background-color: #1e2326;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.container-RRC .btn-cerrarRRC {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-RRC .btn-cerrarRRC label {
+    padding: 17px;
+    background-color: #1e2326;
+    color: #fff;
+    border-radius: 15px;
+    border: 2px solid aquamarine;
+    cursor: pointer;
+    font-family: 'Righteous', cursive;
+}
+
+.container-RRC .container-img {
+    width: 250px;
+    height: 300px;
+    background-color: #1e2326;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid aquamarine;
+    flex-direction: column;
+
+}
+
+.container-RRC .container-img img {
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+    border: 2px solid aquamarine;
+}
+
+.container-RRC .container-img h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+#btn-RRC:checked~.container-RRC {
+    display: flex;
+}
+
+
+/*-----------------------------------------------------*/
+#mostrar {
+    font-size: 20px;
+    width: 250px;
+    height: 78px;
+    color: aquamarine;
+    border: 2px solid aquamarine;
+    background-color: #1e2326;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+/*EJERCISIO*/
+.ejersicio-3 {
+    margin: 0;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    background-color: #1e2326;
+}
+
+.ejersicio-3 .contenido-ejersicio-3 {
+    background-color: #373c3f3a;
+    width: 1300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 55px;
+}
+
+.ejersicio-3 .contenido-ejersicio-3 button {
+    margin-top: 15px;
+    padding: 10px 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #1e2326;
+    color: aquamarine;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.ejersicio-3 .contenido-ejersicio-3 button:hover {
+    background-color: #9ba8af31;
+}
+
+.ejersicio-3 .contenido-ejersicio-3 .titulo {
+    margin-bottom: 22px;
+}
+
+.ejersicio-3 .contenido-ejersicio-3 .solicitar-ejersicio3 {
+
+    width: 400px;
+    height: 200px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ejersicio-3 .contenido-ejersicio-3 .solicitar-ejersicio3 label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    color: aquamarine;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+
+.ejersicio-3 .contenido-ejersicio-3 .solicitar-ejersicio3 label input {
+    font-size: 25px;
+    border-radius: 20px;
+    border: 2px solid aquamarine;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+/*Caja pares impares */
+#btn-pares{
+    display: none;
+}
+.resultado {
+    width: 100%;
+    height: 100%;
+    top: 0; left: 0;
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(144, 140, 150, 0.8);
+    
+}
+.resultado .resultado-todo{
+    display: flex;
+    height: 80%;
+}
+.resultado .cuadrar {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.resultado .cuadrar .imprimir {
+    color: #fff;
+    background-color: #12121349;
+    font-size: 23px;
+    width: 250px;
+    height: 100%;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    
+}
+.resultado .btn-cerrar{
+    margin-top: 40px;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    background-color: #1e2326;
+    color: aquamarine;
+    border-radius: 15px;
+}
+
+#btn-pares:checked ~ .resultado{
+    display: flex;
+}
+
+
+/*---------*/
+@media screen and (max-width: 700px) {
+    .ejersicio-3 .contenido-ejersicio-3 .solicitar-ejersicio3 {
+        width: 350px;
+    }
+    .resultado .resultado-todo{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+/*"container-ejercicio-4*/
+.ejercicio-4{
+    width: 100%;
+    height: 340px;
+    background-color: #1e2326;
+    display: flex;
+    justify-content: center;
+
+}
+.ejercicio-4 .container-ejercicio-4{
+    background-color: #373c3f3a;
+    width: 1300px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 55px;
+}
+.ejercicio-4 .container-ejercicio-4 .container-ejercicio4-campos{
+    margin-top: 15px;
+    width: 400px;
+    height: 140px;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    margin-bottom: 20px;
+        
+}
+.ejercicio-4 .container-ejercicio-4 .container-ejercicio4-campos label{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Righteous', cursive;
+    color: aquamarine;
+    font-size: 30px;
+    align-items: center;
+        
+}
+.ejercicio-4 .container-ejercicio-4 .container-ejercicio4-campos label input{
+    font-size: 20px;
+    padding: 5px 40px;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid aquamarine;
+}
+.ejercicio-4 .container-ejercicio-4 .resultado_ejercicio4{
+    width: 300px;
+    height: 43px;
+    background-color: #fff;
+    border-radius: 12px;
+    border: 2px solid aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+.ejercicio-4 .container-ejercicio-4 button{
+    margin-top: 20px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: aquamarine;
+    background-color: #1e2326;
+    border: 2px solid rgb(245, 248, 247);
+    cursor: pointer;
+}
+@media screen and (max-width: 700px){
+    .ejercicio-4 .container-ejercicio-4 .container-ejercicio4-campos{
+        width: 350px;
+    }
+}
+/*EJERCICIO-7*/
+.ejersicio-7 {
+    margin: 0;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    background-color: #1e2326;
+}
+
+.ejersicio-7 .contenido-ejersicio-7 {
+    background-color: #373c3f3a;
+    width: 1300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 55px;
+}
+
+.ejersicio-7 .contenido-ejersicio-7 button {
+    margin-top: 15px;
+    padding: 10px 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #1e2326;
+    color: aquamarine;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.ejersicio-7 .contenido-ejersicio-7 button:hover {
+    background-color: #9ba8af31;
+}
+
+.ejersicio-7 .contenido-ejersicio-7 .titulo {
+    margin-bottom: 22px;
+}
+
+.ejersicio-7 .contenido-ejersicio-7 .solicitar-ejersicio7 {
+
+    width: 400px;
+    height: 200px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Caja pares impares */
+#btn-pares-vector{
+    display: none;
+}
+.resultado7 {
+    width: 100%;
+    height: 100%;
+    top: 0; left: 0;
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(144, 140, 150, 0.8);
+    
+}
+.resultado7 .resultado-todo7{
+    display: flex;
+    height: 80%;
+}
+.resultado7 .cuadrar7{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.resultado7 .cuadrar7 .imprimir_vector{
+    color: #fff;
+    background-color: #12121349;
+    font-size: 23px;
+    width: 250px;
+    height: 100%;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    
+}
+.resultado7 .btn-cerrar{
+    margin-top: 40px;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    background-color: #1e2326;
+    color: aquamarine;
+    border-radius: 15px;
+}
+
+#btn-pares-vector:checked ~ .resultado7{
+    display: flex;
+}
+
+
+/*---------*/
+@media screen and (max-width: 700px) {
+    .ejersicio-7 .contenido-ejersicio-7 .solicitar-ejersicio7 {
+        width: 350px;
+    }
+    .resultado7 .resultado-todo7{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+/*EJERSICIO 9*/
+.ejercicio-9{
+    width: 100%;
+    height: 550px;
+    background-color: #1e2326;
+    display: flex;
+    justify-content: center;
+
+}
+.ejercicio-9 .container-ejercicio-9{
+    background-color: #373c3f3a;
+    width: 1300px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 55px;
+}
+.ejercicio-9 .container-ejercicio-9 .contenedor-ejersicio9{
+
+}
+.ejercicio-9 .container-ejercicio-9 .container-ejercicio9-campos{
+    margin-top: 15px;
+    width: 400px;
+    height: 140px;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    margin-bottom: 20px;
+        
+}
+
+.ejercicio-9 .container-ejercicio-9 .container-ejercicio9-campos label{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Righteous', cursive;
+    color: aquamarine;
+    font-size: 30px;
+    align-items: center;
+        
+}
+.ejercicio-9 .container-ejercicio-9 .container-ejercicio9-campos label input{
+    font-size: 20px;
+    padding: 5px 40px;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid aquamarine;
+}
+.ejercicio-9 .container-ejercicio-9 .resultado_ejercicio9{
+    width: 300px;
+    height: 43px;
+    background-color: #fff;
+    border-radius: 12px;
+    border: 2px solid aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}    
+.ejercicio-9 .container-ejercicio-9 button{
+    margin-top: 20px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: aquamarine;
+    background-color: #1e2326;
+    border: 2px solid rgb(245, 248, 247);
+    cursor: pointer;
+}
+@media screen and (max-width: 700px){
+    .ejercicio-9 .container-ejercicio-9 .container-ejercicio9-campos{
+        width: 350px;
+    }
+}
