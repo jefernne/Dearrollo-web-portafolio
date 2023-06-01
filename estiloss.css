@@ -259,6 +259,7 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
     
 }
 .consultas2 h1{
@@ -299,7 +300,34 @@ html{
 }
 .consultas2 .cajas1:hover{
  background-color: #1e2326;
+
 }
+
+@media screen and (max-width: 700px){
+    .consultas2 h1{
+    font-family: 'Righteous', cursive;
+    margin-bottom: 50px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1CB698;
+    font-size: 22px;
+    margin-top: 60px;
+    
+    }
+    .consultas2 .cajas1{
+        padding: 26px;
+        margin-bottom: 40px;
+        width: 100%;
+        background: #596269;
+        border-radius: 16px;
+        border: 4px solid #1CB698;
+    
+    }   
+
+}
+
 /*SECCION S K I L L S*/
 .skills{
     background-color: #252a2e;
@@ -513,3 +541,6 @@ footer .arriba{
         width: 100%;
     }
 }
+
+    
+
